@@ -29,7 +29,7 @@ public class chuyenDoiNhietDo {
                     System.out.println(celsiusToFahrenheit(number));
                     break;
                 case 0:
-                    break;
+                    System.exit(0);
             }
         }while (true);
     }
